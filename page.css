@@ -40,6 +40,7 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     position:absolute;
     bottom: 0px;
 }
+
 .middle{
     height: 80vh;
     width:80%;
@@ -50,4 +51,140 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
 .middle h1{
     font-size: 70px;
 
+}
+.form{
+    max-width:700vh;
+    height:70vh;
+    justify-content: center;
+    align-items: center;
+}
+.form-text{
+    text-align: center;
+    margin: 40px 0; 
+    
+}
+.main-form div{ 
+    margin:20px 20px;
+    width: 300px;
+    display:inline-block;
+    
+}
+.main-form div input{
+    width:100%;
+    background: none;
+    font-size: 20px;
+    border: 1px solid #f0b30f;
+    outline: none;
+}
+.main-form div select{
+    width:100%;
+    background: none;
+    font-size: 20px;
+    border: 1px solid #f0b30f;
+}
+
+
+
+
+
+#submit{
+    width:100%;
+    
+text-align: center;
+}
+#submit input {
+    width:200px;
+}
+.About{
+    width:100%;
+    min-height:100vh;
+    background-color: #ddd;
+}
+.About-container{
+    width:80%;
+    display:block;
+    margin:auto;
+    padding-top:100px;
+
+}
+.About-content-container{
+    float:left;
+    width:55%;
+}
+.About-image-section{
+    float:right;
+    width:40%;
+}
+.About-image-section img{
+    width:100%;
+    height:auto;
+}
+ .About-content-section .About-title{
+    text-transform: uppercase;
+    font-size: 28px;
+
+
+}
+.About-content-container .content h3{
+    margin-top:20px;
+    color:#5d5d5d;
+    font-size: 21px;
+}
+.About-content-section  .content p{
+    margin-top:10px;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height:1.5;
+}
+.About-content-section .content .button{
+    margin-top: 30px;
+}
+.About-content-section .content .button a{
+    background-color: #3d3d3d;
+    padding:12px 40px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+}
+.About-content-section .content .button a:hover{
+    background-color: #f0b30f;
+    color: #000;
+}
+@media screen and (max-width:768px){
+    .About-container{
+        width:80%;
+        display:block;
+        margin:auto;
+        padding-top:50px;
+    
+    }
+    About-content-container{
+        float:none;
+        width:100%;
+        display: block;
+        margin: auto;
+    }
+    .About-image-section{
+        float:none;
+        width:100%;
+        
+    }
+    .About-image-section img{
+        width:100%;
+        height:auto;
+        display: block;
+        margin: auto;
+    }
+    .About-content-section .About-title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .About-content-section .content .button{
+        text-align: center;
+    }
+    .About-content-section .content .button a{
+        padding:9px 30px;
+    }
 }
